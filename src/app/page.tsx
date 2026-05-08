@@ -25,7 +25,7 @@ export default async function Home() {
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <Link href="/login" className="inline-flex items-center justify-center rounded-full bg-slate-950 px-5 py-3 text-sm font-medium text-white shadow-lg shadow-slate-950/20 transition hover:bg-slate-800">
+              <Link href="/login" className="inline-flex items-center justify-center rounded-full border-2 border-slate-950 bg-white px-5 py-3 text-sm font-medium text-slate-950 shadow-lg shadow-slate-950/10 transition hover:bg-slate-50">
                 Log in <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
               <Button variant="secondary" asChild>
